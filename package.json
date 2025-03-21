@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.772.0",
+    "@langchain/openai": "^0.4.5",
+    "axios": "^1.8.4",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "langchain": "^0.3.19",
+    "mammoth": "^1.9.0",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.12.1",
+    "multer": "^1.4.5-lts.2",
+    "openai": "^4.89.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
